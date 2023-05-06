@@ -20,7 +20,7 @@ Day2[06-05-2023]
    -travel
    -diapetics
    -minmax
-   -predicts
+   -z score
    -pie3d
    -histogram
    -chisquare
@@ -28,4 +28,4 @@ Day2[06-05-2023]
    -quantile
    -range
    -array
-   
+   -car data
