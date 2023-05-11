@@ -1,0 +1,22 @@
+ x<-data.frame(TEAM_NAME=c("samudras","rajyas","mughals","athars","dheeras"),
+                     points=c(191,199,198,190,189),
+              leader_Gender=c("male","male","male","female","male"),
+              position=c(3,1,2,4,5),
+              stringsAsFactors = FALSE
+                     )
+View(x)
+write.csv(x,"culturals.csv")
+x<-c(98,97,96,86,89,60,07,45,90)
+y<-c(78,67,56,90,45,67,90,45,34)
+
+linear<-lm(y~x)
+linear
+summary(linear)
+a<-mtcars
+a
+library(plotrix)
+pie3D(a$mpg,radius=0.5,height=0.1)
+
+pie(a$disp)
+
+pie(a$mpg,title="mtcars",colour=factor(disp))
